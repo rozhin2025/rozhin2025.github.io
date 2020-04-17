@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('.think').css('width', '90%');
     $('.java').css('width', '90%');
     $('.c').css('width', '70%');
-    $('.python').css('width', '40%');
+    $('.python').css('width', '80%');
     $('.r').css('width', '50%');
     $('.mat').css('width', '60%');
     $('.html').css('width', '70%');
