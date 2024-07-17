@@ -1,25 +1,4 @@
 
-/*bar*/
-$(document).ready(function() {
-    $('.programm').css('width', '100%');
-    $('.web').css('width', '50%');
-    $('.ml').css('width', '90%');
-    $('.data').css('width', '70%');
-    $('.probs').css('width', '90%');
-    $('.team').css('width', '100%');
-    $('.manage').css('width', '50%');
-    $('.think').css('width', '90%');
-    $('.java').css('width', '90%');
-    $('.c').css('width', '70%');
-    $('.python').css('width', '80%');
-    $('.r').css('width', '50%');
-    $('.mat').css('width', '60%');
-    $('.html').css('width', '70%');
-    $('.jvs').css('width', '30%');
-    $('.vb').css('width', '10%');
-});
-
-
 /*circular bar*/
 /* Credits:
  * https://www.developphp.com/video/JavaScript/Circular-Progress-Loader-Canvas-JavaScript-Programming-Tutorial
@@ -57,7 +36,7 @@ $(document).ready(function() {
             self.context.clearRect( 0, 0, self.width, self.height );
             self.context.lineWidth = 10;
             self.context.fillStyle = "#000";
-            self.context.strokeStyle = "orange";
+            self.context.strokeStyle = '#601a1a';
             self.context.textAlign = "center";
 
             self.context.fillText( self.loaded + "%", self.width * .5, self.height * .5 + 2, self.width );
